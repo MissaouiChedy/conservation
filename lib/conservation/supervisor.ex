@@ -1,4 +1,10 @@
 defmodule Conservation.ProcSupervisor do
+  @moduledoc """
+    A Module supervisor that supervises the execution of a pair 
+    of GenServers:
+      - "Service provider" GenServer (Conservation.Server)
+      - "Support" GenServer (Conservation.StateContainer)
+  """
   use Supervisor
   
   def start_link(_) do

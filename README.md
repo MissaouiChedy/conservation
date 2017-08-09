@@ -1,6 +1,8 @@
 # Conservation
 
-**TODO: Add description**
+A very simple example demonstrating how to achieve GenServer state conservation by using a pair of processes.
+
+
 
 ## Installation
 
