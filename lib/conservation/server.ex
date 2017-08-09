@@ -46,7 +46,7 @@ defmodule Conservation.Server do
     GenServer.call(pid, :die)
   end
   
-  def handle_call({:plus_one, m}, _from, state = {n, state_container_pid}) do
+  def handle_call({:plus_one, m}, _from, {n, state_container_pid}) do
     {:reply, m + 1, {n + 1, state_container_pid}}
   end
   

@@ -27,7 +27,7 @@ defmodule Conservation.StateContainer do
     {:reply, state, state}
   end
 
-  def handle_cast({:set, new_state}, state) do
+  def handle_cast({:set, new_state}, _state) do
     {:noreply, new_state}
   end
   
