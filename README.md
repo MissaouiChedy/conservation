@@ -1,6 +1,6 @@
 # Conservation
 
-A very simple example demonstrating how to achieve GenServer state conservation by using a pair of processes.
+A very simple example demonstrating how to achieve GenServer state conservation by using a pair of processes as discussed in the [Conserving genserver state between crashes with a companion process](http://blog.techdominator.com/article/conserving-genserver-state-between-crashes-companion-process.html) post in the Tech Dominator blog.
 
 <img src="https://raw.githubusercontent.com/MissaouiChedy/conservation/master/diagram.PNG" alt="genservers diagram"/>
 
