@@ -2,7 +2,8 @@
 
 A very simple example demonstrating how to achieve GenServer state conservation by using a pair of processes.
 
-[GenServers Diagram]!(https://raw.githubusercontent.com/MissaouiChedy/conservation/master/diagram.PNG)
+<img src="https://raw.githubusercontent.com/MissaouiChedy/conservation/master/diagram.PNG" alt="genservers diagram"/>
+
 
 The `Server` GenServer allows to increment integers while keeping track of the numbers of increments performed. 
 
